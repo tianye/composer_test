@@ -1,0 +1,19 @@
+{
+    "name": "tianye/composer_test",
+    "description": "这是一个漂亮的composer_test.",
+    "authors": [
+        {
+            "name": "tianye",
+            "email": "3217834@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "Test\\": "src/"
+        }
+    }
+}
